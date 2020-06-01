@@ -3,7 +3,7 @@ Feature: TaskApp
 
     Scenario: Adding a Task
         Given I visit my app
-        When I type "Test your App" into the form
+        When I type "Test your App" into the Form
         And I click the Add button
         Then a new task should be added
 
